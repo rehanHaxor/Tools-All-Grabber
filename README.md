@@ -24,8 +24,8 @@ Script ini digunakan untuk meng-grab domain hasil deface dari beberapa sumber mi
 
 1. **Clone repo dan masuk ke foldernya:**
 ```bash
-git clone https://github.com/rehanHaxor/Tools-All-Grabber-
-cd Tools-All-Grabber-
+git clone https://github.com/rehanHaxor/Tools-All-Grabber
+cd Tools-All-Grabber
 
 2. Install dependensi:
 
