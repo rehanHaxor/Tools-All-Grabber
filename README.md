@@ -1,32 +1,32 @@
-🔍 Multi-Source Domain Grabber
-Created by RehanHaxor
+# 🔍 Multi-Source Domain Grabber
 
-Grabber ini mengambil daftar domain hasil defacement dari beberapa situs mirror seperti:
+Script ini digunakan untuk meng-grab domain hasil deface dari beberapa sumber mirror secara otomatis.
 
-haxor.id
+---
 
-defacer.net
+### ✅ Fitur
 
-defacer.id
+- Grabber dari 3 sumber mirror:
+  - `haxor.id`
+  - `defacer.net`
+  - `defacer.id`
+- Support path:
+  - `/archive`
+  - `/onhold`
+  - `/special`
+- Auto grab banyak halaman (tinggal input jumlah halaman)
+- Otomatis hilangkan domain duplikat
+- Auto save hasil ke file `.txt` berdasarkan waktu dan tanggal
 
-Grabber otomatis scraping semua halaman dari 3 kategori:
+---
 
-/archive
+### 🖥️ Cara Jalankan
 
-/onhold
+1. **Clone repo dan masuk ke foldernya:**
+```bash
+git clone https://github.com/rehanHaxor/Tools-All-Grabber-
+cd Tools-All-Grabber-
 
-/special
+2. Install dependensi:
 
-Hasilnya akan disimpan otomatis ke file .txt dengan nama berdasarkan tanggal & jam saat grab.
-
-⚙️ Fitur
-✅ Auto grab semua domain dari berbagai mirror
-
-✅ Mendukung struktur URL unik tiap website
-
-✅ Bisa tentukan berapa halaman yang mau di-scrape
-
-✅ Deteksi otomatis duplikat domain
-
-✅ Simpan ke file otomatis
-
+pip install requests beautifulsoup4 colorama
