@@ -30,3 +30,16 @@ cd Tools-All-Grabber-
 2. Install dependensi:
 
 pip install requests beautifulsoup4 colorama
+
+
+📁 Output
+File akan otomatis tersimpan, contoh:
+
+grabber_2025-07-03_21-17-11.txt
+Isinya list domain hasil scraping yang sudah dihapus duplikatnya.
+
+👨‍💻 Create By 
+Rehan Haxor
+GitHub: @rehanHaxor
+
+
